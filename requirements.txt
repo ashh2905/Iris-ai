@@ -1,0 +1,6 @@
+fastapi
+uvicorn
+aiohttp
+edge-tts
+python-multipart
+jinja2
