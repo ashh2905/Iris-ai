@@ -180,7 +180,7 @@ async function doLogin() {
     document.getElementById("main-interface").style.display = "flex";
     addMsg("iris", data.reply);
     speakText(data.reply);
-    setTimeout(() => startWakeWord(), 1500);
+    //setTimeout(() => startWakeWord(), 1500);
   } catch(e) {
     document.getElementById("login-error").style.display = "block";
   }
